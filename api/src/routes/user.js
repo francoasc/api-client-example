@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
     return res.status(400).send(err);
   }
 });
-
+//
 // Returns the name of 1 user
 router.get("/:name", async (req, res) => {
   const { name } = req.params;
